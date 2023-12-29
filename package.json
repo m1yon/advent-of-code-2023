@@ -5,7 +5,8 @@
   "scripts": {
     "d1p1": "bun ./src/day-1/part-1.ts",
     "d1p2": "bun ./src/day-1/part-2.ts",
-    "d2p1": "bun ./src/day-2/part-1.ts"
+    "d2p1": "bun ./src/day-2/part-1.ts",
+    "d2p2": "bun ./src/day-2/part-2.ts"
   },
   "devDependencies": {
     "bun-types": "latest"

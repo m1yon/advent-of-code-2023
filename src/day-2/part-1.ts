@@ -50,12 +50,12 @@ const validGames = games.map((game) => {
   return game;
 });
 
-const sum = validGames.reduce((acc, curr, index) => {
+const sum = validGames.reduce((prev, curr, index) => {
   if (curr === null) {
-    return acc;
+    return prev;
   }
 
-  return acc + index;
+  return prev + index;
 }, 0);
 
 console.log("sum", sum);
