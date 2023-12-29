@@ -3,7 +3,8 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "day-1": "bun ./src/day-1/part-1.ts"
+    "d1p1": "bun ./src/day-1/part-1.ts",
+    "d1p2": "bun ./src/day-1/part-2.ts"
   },
   "devDependencies": {
     "bun-types": "latest"

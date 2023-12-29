@@ -19,8 +19,8 @@ const calibrationValues = contentByLine.map((calibrationValue) => {
       hi--;
     }
 
-    if (isNumber(calibrationValue[hi]) && isNumber(calibrationValue[lo])) {
-      return Number(`${calibrationValue[hi]}${calibrationValue[lo]}`);
+    if (isNumber(calibrationValue[lo]) && isNumber(calibrationValue[hi])) {
+      return Number(`${calibrationValue[lo]}${calibrationValue[hi]}`);
     }
   }
 
